@@ -192,7 +192,7 @@ var circlesGroup = chartGroup.selectAll("circle")
   .attr("cx", d => xLinearScale(d[chosenXAxis]))
   .attr("cy", d => yLinearScale(d[chosenYAxis]))
   .attr("r", circleR)
-  .attr("fill", "#4682B4");
+  .attr("fill", "LightSteelBlue");
 
 var textGroup = chartGroup.selectAll("text")
   .exit() //because enter() before, clear cache
